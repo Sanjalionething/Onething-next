@@ -5,10 +5,10 @@ import { useState, useEffect, useRef, useLayoutEffect } from "react";
 import { useLocation } from "react-router-dom";
 // import { connect } from "react-redux";
 // import { fetchBlogs } from "../../redux/actions";
-import { gsap } from "gsap";
-import { TextPlugin } from "gsap";
-import { ScrollTrigger } from "gsap";
-import { ScrollToPlugin } from "gsap";
+// import { gsap } from "gsap";
+// import { TextPlugin } from "gsap";
+// import { ScrollTrigger } from "gsap";
+// import { ScrollToPlugin } from "gsap";
 
 // Seo
 import PageLoader from "../components/partials/loaders/page-loader";
@@ -26,9 +26,9 @@ import Homeprojects from "../components/partials/homeprojects/homeprojects";
 import { useRouter } from "next/router";
 import TurningIdeasToOutcome from "../components/partials/turning-ideas-to-outcome/turning-ideas-to-outcome";
 
-gsap.registerPlugin(TextPlugin);
-gsap.registerPlugin(ScrollTrigger);
-gsap.registerPlugin(ScrollToPlugin);
+// gsap.registerPlugin(TextPlugin);
+// gsap.registerPlugin(ScrollTrigger);
+// gsap.registerPlugin(ScrollToPlugin);
 
 function Home({ cursor }) {
   const [tabKey, setTabKey] = useState("automotive");

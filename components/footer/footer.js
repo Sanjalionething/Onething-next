@@ -8,7 +8,7 @@ import { useRouter } from "next/router";
 // import ctaArrow from "../../assets/img/global/grad-arrow.svg";
 // import bangaloreAddress from "../../assets/img/icons/bangalore-footer.svg";
 // import gurgaonAddress from "../../assets/img/icons/gurgaon-footer.svg";
-import { validateEmail } from "../../essentials/utils/global_fun";
+// import { validateEmail } from "../../essentials/utils/global_fun";
 // import { sendSubsForm } from "../../essentials/redux/actions";
 // import primaryCtaArrow from "../../assets/img/global/primary-arrow.svg";
 
@@ -42,13 +42,13 @@ function Footer({}) {
       return false;
     }
 
-    if (!validateEmail(email)) {
-      console.log("valid email");
+    // if (!validateEmail(email)) {
+    //   console.log("valid email");
 
-      setEmailValidError(true);
-      emailControl.focus();
-      return false;
-    }
+    //   setEmailValidError(true);
+    //   emailControl.focus();
+    //   return false;
+    // }
 
     let formData = new FormData();
     formData.append("subscribe-email", email);
