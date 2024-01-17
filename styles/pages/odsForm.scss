@@ -1,0 +1,8 @@
+@import "../main.scss";
+
+.titleWrap {
+    width: 500px;
+    @include phone {
+        width: 298px;
+    }
+}
