@@ -156,7 +156,8 @@ const Homeprojects = () => {
                       >
                         Read More
                         <div className="arrow-dot">
-                          <img loading="lazy"
+                          <img
+                            loading="lazy"
                             src={primaryCtaArrow}
                             className="icon icon-submit"
                             alt=""
@@ -178,14 +179,18 @@ const Homeprojects = () => {
                           </ul>
                         </div>
                       </h5>
-                      <p>Designing a wearable user experience, for young users taking their first steps to digital.</p>
+                      <p>
+                        Designing a wearable user experience, for young users
+                        taking their first steps to digital.
+                      </p>
                       <a
                         className="bttn bttn-primary"
                         href="/projects/iot/noise/"
                       >
                         Read More
                         <div className="arrow-dot">
-                          <img loading="lazy"
+                          <img
+                            loading="lazy"
                             src={primaryCtaArrow}
                             className="icon icon-submit"
                             alt=""
@@ -218,7 +223,8 @@ const Homeprojects = () => {
                       >
                         Read More
                         <div className="arrow-dot">
-                          <img loading="lazy"
+                          <img
+                            loading="lazy"
                             src={primaryCtaArrow}
                             className="icon icon-submit"
                             alt=""
@@ -251,7 +257,8 @@ const Homeprojects = () => {
                       >
                         Read More
                         <div className="arrow-dot">
-                          <img loading="lazy"
+                          <img
+                            loading="lazy"
                             src={primaryCtaArrow}
                             className="icon icon-submit"
                             alt=""
@@ -270,14 +277,15 @@ const Homeprojects = () => {
       {windowWidth <= 900 && (
         <>
           <div className="project-for-mobile blur-overlay">
-          <div className="project-heading container">
-            <div className="custom-heading-wrapper">
-              <h3 className="section-heading">Our Projects</h3>
-              <h2>
-                Acing UI UX design for many organisations across industries, from new age startups to global players.
-              </h2>
+            <div className="project-heading container">
+              <div className="custom-heading-wrapper">
+                <h3 className="section-heading">Our Projects</h3>
+                <h2>
+                  Acing UI UX design for many organisations across industries,
+                  from new age startups to global players.
+                </h2>
+              </div>
             </div>
-          </div>
             <div className="container">
               <div className="projects-wrap position-relative">
                 <Slider {...settings}>
@@ -306,7 +314,8 @@ const Homeprojects = () => {
                         >
                           Read More
                           <div className="arrow-dot">
-                            <img loading="lazy"
+                            <img
+                              loading="lazy"
                               src={primaryCtaArrow}
                               className="icon icon-submit"
                               alt=""
@@ -331,14 +340,18 @@ const Homeprojects = () => {
                             </ul>
                           </div>
                         </h5>
-                        <p>Designing a wearable user experience, for young users taking their first steps to digital.</p>
+                        <p>
+                          Designing a wearable user experience, for young users
+                          taking their first steps to digital.
+                        </p>
                         <a
                           className="bttn bttn-primary"
                           href="/projects/bfsi/rbl-bank/"
                         >
                           Read More
                           <div className="arrow-dot">
-                            <img loading="lazy"
+                            <img
+                              loading="lazy"
                               src={primaryCtaArrow}
                               className="icon icon-submit"
                               alt=""
@@ -373,7 +386,8 @@ const Homeprojects = () => {
                         >
                           Read More
                           <div className="arrow-dot">
-                            <img loading="lazy"
+                            <img
+                              loading="lazy"
                               src={primaryCtaArrow}
                               className="icon icon-submit"
                               alt=""
@@ -408,7 +422,8 @@ const Homeprojects = () => {
                         >
                           Read More
                           <div className="arrow-dot">
-                            <img loading="lazy"
+                            <img
+                              loading="lazy"
                               src={primaryCtaArrow}
                               className="icon icon-submit"
                               alt=""

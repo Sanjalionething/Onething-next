@@ -1,15 +1,9 @@
 import "../styles/pages/home.scss";
 import "../styles/pages/faq.scss";
-
 import { useState, useEffect, useRef, useLayoutEffect } from "react";
-import { useLocation } from "react-router-dom";
-// import { connect } from "react-redux";
-// import { fetchBlogs } from "../../redux/actions";
-// import { gsap } from "gsap";
-// import { TextPlugin } from "gsap";
+import { gsap } from "gsap";
 // import { ScrollTrigger } from "gsap";
 // import { ScrollToPlugin } from "gsap";
-
 // Seo
 import PageLoader from "../components/partials/loaders/page-loader";
 import { addPageMetas } from "../essentials/utils/global_fun";
