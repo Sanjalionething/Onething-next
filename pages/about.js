@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Controller, Scene } from "react-scrollmagic";
+// import { Controller, Scene } from "react-scrollmagic";
 // import { Tween, Timeline } from "react-gsap";
 import CuratedProjectsSmall from "../components/partials/curated-small/CuratedProjectsSmall";
 import Awards from "../components/partials/awards/awards";
@@ -403,13 +403,13 @@ const About = () => {
           <section className="banner-image-section blur-overlay">
             <div className="div-wrap right_container">
               <figure>
-                <Controller>
+                {/* <Controller>
                   <Scene
                     indicators={false}
                     duration="200%"
                     triggerHook="onEnter"
-                  >
-                    {/* <Timeline
+                  > */}
+                {/* <Timeline
                       wrapper={
                         <div
                           className="parallax"
@@ -417,21 +417,21 @@ const About = () => {
                         />
                       }
                     > */}
-                    {/* <Tween
+                {/* <Tween
                         position="0"
                         from={{ yPercent: -30 }}
                         to={{ yPercent: 0 }}
                       > */}
-                    <img
-                      loading="lazy"
-                      src="/assets/img/about/about_banner.webp"
-                      className="img-fluid"
-                      alt=""
-                    />
-                    {/* </Tween> */}
-                    {/* </Timeline> */}
-                  </Scene>
-                </Controller>
+                <img
+                  loading="lazy"
+                  src="/assets/img/about/about_banner.webp"
+                  className="img-fluid"
+                  alt=""
+                />
+                {/* </Tween> */}
+                {/* </Timeline> */}
+                {/* </Scene>
+                </Controller> */}
               </figure>
             </div>
           </section>
@@ -540,13 +540,13 @@ const About = () => {
                 <div className="col-md-4">
                   <div className="cult_cards first-card-culture">
                     <figure>
-                      <Controller>
+                      {/* <Controller>
                         <Scene
                           indicators={false}
                           duration="200%"
                           triggerHook="onEnter"
-                        >
-                          {/* <Timeline
+                        > */}
+                      {/* <Timeline
                             wrapper={
                               <div
                                 className="parallax"
@@ -559,16 +559,16 @@ const About = () => {
                               from={{ yPercent: -30 }}
                               to={{ yPercent: 0 }}
                             > */}
-                          <img
-                            loading="lazy"
-                            src="/assets/img/about/things_img2.webp"
-                            className="img-fluid"
-                            alt=""
-                          />
-                          {/* </Tween>
+                      <img
+                        loading="lazy"
+                        src="/assets/img/about/things_img2.webp"
+                        className="img-fluid"
+                        alt=""
+                      />
+                      {/* </Tween>
                           </Timeline> */}
-                        </Scene>
-                      </Controller>
+                      {/* </Scene>
+                      </Controller> */}
                     </figure>
                     <p class="has-border">
                       Every year, our entire team comes together for an
@@ -582,13 +582,13 @@ const About = () => {
                 <div className="col-md-6">
                   <div className="cult_cards second-card-culture">
                     <figure>
-                      <Controller>
+                      {/* <Controller>
                         <Scene
                           indicators={false}
                           duration="200%"
                           triggerHook="onEnter"
-                        >
-                          {/* <Timeline
+                        > */}
+                      {/* <Timeline
                             wrapper={
                               <div
                                 className="parallax"
@@ -601,16 +601,16 @@ const About = () => {
                               from={{ yPercent: -20 }}
                               to={{ yPercent: 0 }}
                             > */}
-                          <img
-                            loading="lazy"
-                            src="/assets/img/about/our_culture_img12.webp"
-                            className="img-fluid"
-                            alt=""
-                          />
-                          {/* </Tween>
+                      <img
+                        loading="lazy"
+                        src="/assets/img/about/our_culture_img12.webp"
+                        className="img-fluid"
+                        alt=""
+                      />
+                      {/* </Tween>
                           </Timeline> */}
-                        </Scene>
-                      </Controller>
+                      {/* </Scene>
+                      </Controller> */}
                     </figure>
                     <p class="has-border">
                       Culture and diversity remain an intrinsic part of
@@ -623,13 +623,13 @@ const About = () => {
                 <div className="col-md-8 mx-auto">
                   <div className="cult_cards">
                     <figure>
-                      <Controller>
+                      {/* <Controller>
                         <Scene
                           indicators={false}
                           duration="200%"
                           triggerHook="onEnter"
-                        >
-                          {/* <Timeline
+                        > */}
+                      {/* <Timeline
                             wrapper={
                               <div
                                 className="parallax"
@@ -642,16 +642,16 @@ const About = () => {
                               from={{ yPercent: -30 }}
                               to={{ yPercent: 0 }}
                             > */}
-                          <img
-                            loading="lazy"
-                            src="../../assets/img/about/wrk_img2.webp"
-                            className="img-fluid"
-                            alt=""
-                          />
-                          {/* </Tween>
+                      <img
+                        loading="lazy"
+                        src="../../assets/img/about/wrk_img2.webp"
+                        className="img-fluid"
+                        alt=""
+                      />
+                      {/* </Tween>
                           </Timeline> */}
-                        </Scene>
-                      </Controller>
+                      {/* </Scene>
+                      </Controller> */}
                     </figure>
                     <p class="has-border">
                       Our immense adoration and love for all beings, comes from
@@ -668,13 +668,13 @@ const About = () => {
                 <div className="col-md-6">
                   <div className="cult_cards">
                     <figure>
-                      <Controller>
+                      {/* <Controller>
                         <Scene
                           indicators={false}
                           duration="200%"
                           triggerHook="onEnter"
-                        >
-                          {/* <Timeline
+                        > */}
+                      {/* <Timeline
                             wrapper={
                               <div
                                 className="parallax"
@@ -687,16 +687,16 @@ const About = () => {
                               from={{ yPercent: -50 }}
                               to={{ yPercent: 0 }}
                             > */}
-                          <img
-                            loading="lazy"
-                            src="/assets/img/about/our_culture_img12.webp"
-                            className="img-fluid"
-                            alt="Our Culture"
-                          />
-                          {/* </Tween>
+                      <img
+                        loading="lazy"
+                        src="/assets/img/about/our_culture_img12.webp"
+                        className="img-fluid"
+                        alt="Our Culture"
+                      />
+                      {/* </Tween>
                           </Timeline> */}
-                        </Scene>
-                      </Controller>
+                      {/* </Scene>
+                      </Controller> */}
                     </figure>
                     <p class="has-border">
                       Our culture defines us and results in exemplary work. Last
@@ -709,13 +709,13 @@ const About = () => {
                 <div className="col-md-4">
                   <div className="cult_cards">
                     <figure>
-                      <Controller>
+                      {/* <Controller>
                         <Scene
                           indicators={false}
                           duration="200%"
                           triggerHook="onEnter"
-                        >
-                          {/* <Timeline
+                        > */}
+                      {/* <Timeline
                             wrapper={
                               <div
                                 className="parallax"
@@ -728,16 +728,16 @@ const About = () => {
                               from={{ yPercent: -10 }}
                               to={{ yPercent: 0 }}
                             > */}
-                          <img
-                            loading="lazy"
-                            src="/assets/img/about/our_culture_img2.webp"
-                            className="img-fluid"
-                            alt="Our Culture"
-                          />
-                          {/* </Tween>
+                      <img
+                        loading="lazy"
+                        src="/assets/img/about/our_culture_img2.webp"
+                        className="img-fluid"
+                        alt="Our Culture"
+                      />
+                      {/* </Tween>
                           </Timeline> */}
-                        </Scene>
-                      </Controller>
+                      {/* </Scene>
+                      </Controller> */}
                     </figure>
                     <p class="has-border">
                       Our culture defines us and results in exemplary work. Last
@@ -909,13 +909,13 @@ const About = () => {
           <section className="our_work left_container right_container blur-overlay">
             <div class="div-wrap">
               <figure class="our-work-banner">
-                <Controller>
+                {/* <Controller>
                   <Scene
                     indicators={false}
                     duration="200%"
                     triggerHook="onEnter"
-                  >
-                    {/* <Timeline
+                  > */}
+                {/* <Timeline
                       wrapper={
                         <div
                           className="parallax"
@@ -928,16 +928,16 @@ const About = () => {
                         from={{ yPercent: -50 }}
                         to={{ yPercent: 0 }}
                       > */}
-                    <img
-                      loading="lazy"
-                      src="/assets/img/about/wrk_img.webp"
-                      className="img-fluid"
-                      alt=""
-                    />
-                    {/* </Tween>
+                <img
+                  loading="lazy"
+                  src="/assets/img/about/wrk_img.webp"
+                  className="img-fluid"
+                  alt=""
+                />
+                {/* </Tween>
                     </Timeline> */}
-                  </Scene>
-                </Controller>
+                {/* </Scene>
+                </Controller> */}
               </figure>
               <div className="position-relative">
                 <div className="our_wrk_mxwdth left_container right_container">
