@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import { useEffect, useState } from "react";
 import { Controller, Scene } from "react-scrollmagic";
-import { Tween, Timeline } from "react-gsap";
+// import { Tween, Timeline } from "react-gsap";
 
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
@@ -222,7 +222,7 @@ export default function Services() {
           <figure className="right_container">
             <Controller>
               <Scene indicators={false} duration="200%" triggerHook="onEnter">
-                <Timeline
+                {/* <Timeline
                   wrapper={
                     <div
                       className="parallax"
@@ -234,15 +234,15 @@ export default function Services() {
                     position="0"
                     from={{ yPercent: -30 }}
                     to={{ yPercent: 0 }}
-                  >
-                    <img
-                      loading="lazy"
-                      src="/assets/img/services/banner-team-y.webp"
-                      className="img-fluid"
-                      alt="UI UX Design Services"
-                    />
-                  </Tween>
-                </Timeline>
+                  > */}
+                <img
+                  loading="lazy"
+                  src="/assets/img/services/banner-team-y.webp"
+                  className="img-fluid"
+                  alt="UI UX Design Services"
+                />
+                {/* </Tween>
+                </Timeline> */}
               </Scene>
             </Controller>
           </figure>
@@ -332,7 +332,7 @@ export default function Services() {
                         duration="200%"
                         triggerHook="onEnter"
                       >
-                        <Timeline
+                        {/* <Timeline
                           wrapper={
                             <div
                               className="parallax"
@@ -348,15 +348,15 @@ export default function Services() {
                             to={{
                               yPercent: 0,
                             }}
-                          >
-                            <img
-                              loading="lazy"
-                              src="/assets/img/services/research-one-y.webp"
-                              className="img-fluid"
-                              alt=""
-                            />
-                          </Tween>
-                        </Timeline>
+                          > */}
+                        <img
+                          loading="lazy"
+                          src="/assets/img/services/research-one-y.webp"
+                          className="img-fluid"
+                          alt=""
+                        />
+                        {/* </Tween>
+                        </Timeline> */}
                       </Scene>
                     </Controller>
                   </figure>
@@ -369,7 +369,7 @@ export default function Services() {
                         duration="200%"
                         triggerHook="onEnter"
                       >
-                        <Timeline
+                        {/* <Timeline
                           wrapper={
                             <div
                               className="parallax"
@@ -385,15 +385,15 @@ export default function Services() {
                             to={{
                               yPercent: 0,
                             }}
-                          >
-                            <img
-                              loading="lazy"
-                              src="/assets/img/services/research-two-y.webp"
-                              className="img-fluid"
-                              alt=""
-                            />
-                          </Tween>
-                        </Timeline>
+                          > */}
+                        <img
+                          loading="lazy"
+                          src="/assets/img/services/research-two-y.webp"
+                          className="img-fluid"
+                          alt=""
+                        />
+                        {/* </Tween>
+                        </Timeline> */}
                       </Scene>
                     </Controller>
                   </figure>
@@ -477,7 +477,7 @@ export default function Services() {
                         duration="200%"
                         triggerHook="onEnter"
                       >
-                        <Timeline
+                        {/* <Timeline
                           wrapper={
                             <div
                               className="parallax"
@@ -493,15 +493,15 @@ export default function Services() {
                             to={{
                               yPercent: 0,
                             }}
-                          >
-                            <img
-                              loading="lazy"
-                              src="/assets/img/services/design-1y.webp"
-                              className="img-fluid"
-                              alt=""
-                            />
-                          </Tween>
-                        </Timeline>
+                          > */}
+                        <img
+                          loading="lazy"
+                          src="/assets/img/services/design-1y.webp"
+                          className="img-fluid"
+                          alt=""
+                        />
+                        {/* </Tween>
+                        </Timeline> */}
                       </Scene>
                     </Controller>
                   </figure>
@@ -514,7 +514,7 @@ export default function Services() {
                         duration="200%"
                         triggerHook="onEnter"
                       >
-                        <Timeline
+                        {/* <Timeline
                           wrapper={
                             <div
                               className="parallax"
@@ -530,15 +530,15 @@ export default function Services() {
                             to={{
                               yPercent: 0,
                             }}
-                          >
-                            <img
-                              loading="lazy"
-                              src="/assets/img/services/design-2y.webp"
-                              className="img-fluid"
-                              alt=""
-                            />
-                          </Tween>
-                        </Timeline>
+                          > */}
+                        <img
+                          loading="lazy"
+                          src="/assets/img/services/design-2y.webp"
+                          className="img-fluid"
+                          alt=""
+                        />
+                        {/* </Tween>
+                        </Timeline> */}
                       </Scene>
                     </Controller>
                   </figure>
@@ -614,7 +614,7 @@ export default function Services() {
                         duration="200%"
                         triggerHook="onEnter"
                       >
-                        <Timeline
+                        {/* <Timeline
                           wrapper={
                             <div
                               className="parallax"
@@ -630,15 +630,15 @@ export default function Services() {
                             to={{
                               yPercent: 0,
                             }}
-                          >
-                            <img
-                              loading="lazy"
-                              src="/assets/img/services/service-design1y.webp"
-                              className="img-fluid"
-                              alt=""
-                            />
-                          </Tween>
-                        </Timeline>
+                          > */}
+                        <img
+                          loading="lazy"
+                          src="/assets/img/services/service-design1y.webp"
+                          className="img-fluid"
+                          alt=""
+                        />
+                        {/* </Tween>
+                        </Timeline> */}
                       </Scene>
                     </Controller>
                   </figure>
@@ -651,7 +651,7 @@ export default function Services() {
                         duration="200%"
                         triggerHook="onEnter"
                       >
-                        <Timeline
+                        {/* <Timeline
                           wrapper={
                             <div
                               className="parallax"
@@ -667,15 +667,15 @@ export default function Services() {
                             to={{
                               yPercent: 0,
                             }}
-                          >
-                            <img
-                              loading="lazy"
-                              src="/assets/img/services/service-design2y.webp"
-                              className="img-fluid"
-                              alt=""
-                            />
-                          </Tween>
-                        </Timeline>
+                          > */}
+                        <img
+                          loading="lazy"
+                          src="/assets/img/services/service-design2y.webp"
+                          className="img-fluid"
+                          alt=""
+                        />
+                        {/* </Tween>
+                        </Timeline> */}
                       </Scene>
                     </Controller>
                   </figure>
@@ -747,7 +747,7 @@ export default function Services() {
                         duration="200%"
                         triggerHook="onEnter"
                       >
-                        <Timeline
+                        {/* <Timeline
                           wrapper={
                             <div
                               className="parallax"
@@ -763,15 +763,15 @@ export default function Services() {
                             to={{
                               yPercent: 0,
                             }}
-                          >
-                            <img
-                              loading="lazy"
-                              src="/assets/img/services/contentOne.webp"
-                              className="img-fluid"
-                              alt=""
-                            />
-                          </Tween>
-                        </Timeline>
+                          > */}
+                        <img
+                          loading="lazy"
+                          src="/assets/img/services/contentOne.webp"
+                          className="img-fluid"
+                          alt=""
+                        />
+                        {/* </Tween>
+                        </Timeline> */}
                       </Scene>
                     </Controller>
                   </figure>
@@ -784,7 +784,7 @@ export default function Services() {
                         duration="200%"
                         triggerHook="onEnter"
                       >
-                        <Timeline
+                        {/* <Timeline
                           wrapper={
                             <div
                               className="parallax"
@@ -800,15 +800,15 @@ export default function Services() {
                             to={{
                               yPercent: 0,
                             }}
-                          >
-                            <img
-                              loading="lazy"
-                              src="/assets/img/services/contentTwo.webp"
-                              className="img-fluid"
-                              alt=""
-                            />
-                          </Tween>
-                        </Timeline>
+                          > */}
+                        <img
+                          loading="lazy"
+                          src="/assets/img/services/contentTwo.webp"
+                          className="img-fluid"
+                          alt=""
+                        />
+                        {/* </Tween>
+                        </Timeline> */}
                       </Scene>
                     </Controller>
                   </figure>
@@ -923,7 +923,7 @@ export default function Services() {
                         duration="200%"
                         triggerHook="onEnter"
                       >
-                        <Timeline
+                        {/* <Timeline
                           wrapper={
                             <div
                               className="parallax"
@@ -939,15 +939,15 @@ export default function Services() {
                             to={{
                               yPercent: 0,
                             }}
-                          >
-                            <img
-                              loading="lazy"
-                              src="/assets/img/services/entUXTwo.webp"
-                              className="img-fluid"
-                              alt=""
-                            />
-                          </Tween>
-                        </Timeline>
+                          > */}
+                        <img
+                          loading="lazy"
+                          src="/assets/img/services/entUXTwo.webp"
+                          className="img-fluid"
+                          alt=""
+                        />
+                        {/* </Tween>
+                        </Timeline> */}
                       </Scene>
                     </Controller>
                   </figure>
@@ -960,7 +960,7 @@ export default function Services() {
                         duration="200%"
                         triggerHook="onEnter"
                       >
-                        <Timeline
+                        {/* <Timeline
                           wrapper={
                             <div
                               className="parallax"
@@ -976,15 +976,15 @@ export default function Services() {
                             to={{
                               yPercent: 0,
                             }}
-                          >
-                            <img
-                              loading="lazy"
-                              src="/assets/img/services/enterprise-ux1y.webp"
-                              className="img-fluid"
-                              alt=""
-                            />
-                          </Tween>
-                        </Timeline>
+                          > */}
+                        <img
+                          loading="lazy"
+                          src="/assets/img/services/enterprise-ux1y.webp"
+                          className="img-fluid"
+                          alt=""
+                        />
+                        {/* </Tween>
+                        </Timeline> */}
                       </Scene>
                     </Controller>
                   </figure>
@@ -1029,7 +1029,7 @@ export default function Services() {
                         duration="200%"
                         triggerHook="onEnter"
                       >
-                        <Timeline
+                        {/* <Timeline
                           wrapper={
                             <div
                               className="parallax"
@@ -1045,15 +1045,15 @@ export default function Services() {
                             to={{
                               yPercent: 0,
                             }}
-                          >
-                            <img
-                              loading="lazy"
-                              src="/assets/img/services/design-engg1y.webp"
-                              className="img-fluid"
-                              alt=""
-                            />
-                          </Tween>
-                        </Timeline>
+                          > */}
+                        <img
+                          loading="lazy"
+                          src="/assets/img/services/design-engg1y.webp"
+                          className="img-fluid"
+                          alt=""
+                        />
+                        {/* </Tween>
+                        </Timeline> */}
                       </Scene>
                     </Controller>
                   </figure>
@@ -1066,7 +1066,7 @@ export default function Services() {
                         duration="200%"
                         triggerHook="onEnter"
                       >
-                        <Timeline
+                        {/* <Timeline
                           wrapper={
                             <div
                               className="parallax"
@@ -1082,15 +1082,15 @@ export default function Services() {
                             to={{
                               yPercent: 0,
                             }}
-                          >
-                            <img
-                              loading="lazy"
-                              src="/assets/img/services/design-engg2y.webp"
-                              className="img-fluid"
-                              alt=""
-                            />
-                          </Tween>
-                        </Timeline>
+                          > */}
+                        <img
+                          loading="lazy"
+                          src="/assets/img/services/design-engg2y.webp"
+                          className="img-fluid"
+                          alt=""
+                        />
+                        {/* </Tween>
+                        </Timeline> */}
                       </Scene>
                     </Controller>
                   </figure>
@@ -1138,7 +1138,7 @@ export default function Services() {
                         duration="200%"
                         triggerHook="onEnter"
                       >
-                        <Timeline
+                        {/* <Timeline
                           wrapper={
                             <div
                               className="parallax"
@@ -1154,15 +1154,15 @@ export default function Services() {
                             to={{
                               yPercent: 0,
                             }}
-                          >
-                            <img
-                              loading="lazy"
-                              src="/assets/img/services/uxAuditOne.webp"
-                              className="img-fluid"
-                              alt=""
-                            />
-                          </Tween>
-                        </Timeline>
+                          > */}
+                        <img
+                          loading="lazy"
+                          src="/assets/img/services/uxAuditOne.webp"
+                          className="img-fluid"
+                          alt=""
+                        />
+                        {/* </Tween>
+                        </Timeline> */}
                       </Scene>
                     </Controller>
                   </figure>
@@ -1175,7 +1175,7 @@ export default function Services() {
                         duration="200%"
                         triggerHook="onEnter"
                       >
-                        <Timeline
+                        {/* <Timeline
                           wrapper={
                             <div
                               className="parallax"
@@ -1191,15 +1191,15 @@ export default function Services() {
                             to={{
                               yPercent: 0,
                             }}
-                          >
-                            <img
-                              loading="lazy"
-                              src="/assets/img/services/uxAuditTwo.webp"
-                              className="img-fluid"
-                              alt=""
-                            />
-                          </Tween>
-                        </Timeline>
+                          > */}
+                        <img
+                          loading="lazy"
+                          src="/assets/img/services/uxAuditTwo.webp"
+                          className="img-fluid"
+                          alt=""
+                        />
+                        {/* </Tween>
+                        </Timeline> */}
                       </Scene>
                     </Controller>
                   </figure>
