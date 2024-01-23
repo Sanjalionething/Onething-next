@@ -5,7 +5,7 @@ import { useState, useRef } from "react";
 import { connect } from "react-redux";
 import { sendSubsForm } from "../../../essentials/redux/actions";
 
-// import { validateEmail } from "../../../essentials/utils/validate";
+import { validateEmail } from "../../../essentials/utils/validate";
 
 // import ctaArrow from "../../assets/img/global/grad-arrow.svg";
 // import submitArrow from "../../assets/img/global/red-arrow.svg";
@@ -60,11 +60,11 @@ const Newsletter = ({ subsFormState, sendSubsForm, heading }) => {
       return false;
     }
 
-    // if (!validateEmail(email)) {
-    //   setEmailValidError(true);
-    //   emailControl.focus();
-    //   return false;
-    // }
+    if (!validateEmail(email)) {
+      setEmailValidError(true);
+      emailControl.focus();
+      return false;
+    }
 
     let formData = new FormData();
     formData.append("subscribe-email", email);

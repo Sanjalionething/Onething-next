@@ -166,7 +166,7 @@
 	.case-study-hero {
 		.div-wrap {
 			padding: 112px 0 0 0;
-			background: url('../../assets/img/global/case-study-bg.webp');
+			background: url('/assets/img/global/case-study-bg.webp');
 			height: 100%;
 			width: 100%;
 			background-position: center center;
@@ -357,7 +357,7 @@
 								&:before {
 									position: absolute;
 									content: "";
-									background: url('../../assets/img/global/insight-bg2.svg');
+									background: url('/assets/img/global/insight-bg2.svg');
 									bottom: 0;
 									right: 0;
 									height: 88px;
@@ -380,7 +380,7 @@
 								&:before {
 									position: absolute;
 									content: "";
-									background: url('../../assets/img/global/insight-bg1.svg');
+									background: url('/assets/img/global/insight-bg1.svg');
 									top: 0;
 									right: 0;
 									height: 136px;
@@ -403,7 +403,7 @@
 								&:before {
 									position: absolute;
 									content: "";
-									background: url('../../assets/img/global/insight-bg3.svg');
+									background: url('/assets/img/global/insight-bg3.svg');
 									top: 0;
 									right: 0;
 									height: 136px;
@@ -664,7 +664,7 @@
 						height: 42px;
 						top: 0;
 						left: 178px;
-						background: url('../../assets/img/global/quote.svg');
+						background: url('/assets/img/global/quote.svg');
 					}
 				}
 			}
@@ -916,7 +916,7 @@
 			height: 42px;
 			top: 136px;
 			left: 64px;
-			background: url('../../assets/img/global/quote.svg');
+			background: url('/assets/img/global/quote.svg');
 			background-repeat: no-repeat;
 			background-size: cover;
 			background-position: center center;

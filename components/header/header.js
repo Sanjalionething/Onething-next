@@ -216,18 +216,21 @@ onClick={handleMenu}
                       <h6>INDUSTRIES</h6>
                       <ul className="list-unstyled industries_menu_list">
                         <li>
-                          <a href="/all-industries/bfsi">BFSI</a>
+                          <a href="/industry/bfsi">BFSI</a>
                         </li>
                         <li>
-                          <a href="/all-industries/retail">Retail</a>
+                          <a href="/industry/retail">Retail</a>
                         </li>
                         <li>
-                          <a href="/all-industries/health_and_technology">
+                          <a href="/industry/health_and_technology">
                             Health Technology
                           </a>
                         </li>
                         <li>
-                          <a href="/all-industries/energy">Energy</a>
+                          <a href="/industry/enterprise">Enterprise</a>
+                        </li>
+                        <li>
+                          <a href="/industry/energy">Energy</a>
                         </li>
                         <span>Coming Soon</span>
                         <div className="coming-soon-listing">

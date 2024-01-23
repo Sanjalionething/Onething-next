@@ -1,7 +1,5 @@
 import "./related-case-studies.scss";
 
-import projectArrow from "../../assets/img/svg/right-arrow.svg";
-
 const RelatedCaseStudies = ({ relatedProjects }) => {
   return (
     <>
@@ -34,8 +32,9 @@ const RelatedCaseStudies = ({ relatedProjects }) => {
                       >
                         <h5>{project.title.rendered}</h5>
                         <figure>
-                          <img loading="lazy"
-                            src={projectArrow}
+                          <img
+                            loading="lazy"
+                            src="/assets/img/svg/right-arrow.svg"
                             className="icon-arrow icon"
                             alt=""
                           />

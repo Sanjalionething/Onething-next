@@ -2,9 +2,9 @@ import "../styles/main.scss";
 import "../styles/global.scss";
 // import "../styles/_atoms/_spacing.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Provider } from "react-redux";
-import { store, persistor } from "../essentials/redux/store";
-import { PersistGate } from "redux-persist/lib/integration/react";
+// import { Provider } from "react-redux";
+// import { store, persistor } from "../essentials/redux/store";
+// import { PersistGate } from "redux-persist/lib/integration/react";
 import LinesBehindLayout from "../components/partials/lines-behind-layout/LinesBehindLayout";
 import { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/router";
@@ -57,11 +57,11 @@ function MyApp({ Component, pageProps }) {
         <ScrollToTop />
         <LinesBehindLayout />
 
-        <Provider store={store}>
-          <PersistGate loading={null} persistor={persistor}>
-            <Component {...pageProps} />
-          </PersistGate>
-        </Provider>
+        {/* <Provider store={store}>
+          <PersistGate loading={null} persistor={persistor}> */}
+        <Component {...pageProps} />
+        {/* </PersistGate>
+        </Provider> */}
         {/* <Component {...pageProps} /> */}
 
         {router.pathname === "/ui-ux-design-agency" ? "" : <Footer />}

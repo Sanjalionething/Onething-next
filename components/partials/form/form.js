@@ -8,11 +8,11 @@ import { SendForm } from "../../../pages/api/ContactForm";
 // import primaryCtaArrow from "/assets/img/global/primary-arrow.svg";
 // import darkArrow from "/assets/img/global/grey-arrow.svg";
 import "./form.scss";
-// import {
-//   validateEmail,
-//   validateMobileLength,
-//   validateNumber,
-// } from "../../../essentials/utils/validate";
+import {
+  validateEmail,
+  validateMobileLength,
+  validateNumber,
+} from "../../../essentials/utils/validate";
 import PageLoader from "../../partials/loaders/page-loader";
 import { useRouter } from "next/router";
 
@@ -73,11 +73,11 @@ const FormComp = ({ title }) => {
       return false;
     }
 
-    // if (!validateEmail(email)) {
-    //   setEmailValidError(true);
-    //   emailControl.focus();
-    //   return false;
-    // }
+    if (!validateEmail(email)) {
+      setEmailValidError(true);
+      emailControl.focus();
+      return false;
+    }
 
     if (mobile == "") {
       setMobileEmptyError(true);
@@ -85,11 +85,11 @@ const FormComp = ({ title }) => {
       return false;
     }
 
-    // if (!validateMobileLength(mobile)) {
-    //   setMobileLengthValidError(true);
-    //   mobileControl.focus();
-    //   return false;
-    // }
+    if (!validateMobileLength(mobile)) {
+      setMobileLengthValidError(true);
+      mobileControl.focus();
+      return false;
+    }
 
     if (refer == "") {
       setReferError(true);

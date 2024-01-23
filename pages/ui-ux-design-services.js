@@ -3,8 +3,8 @@ import "../styles/pages/search.scss";
 import Image from "next/image";
 
 import { useEffect, useState } from "react";
-// import { Controller, Scene } from "react-scrollmagic";
-// import { Tween, Timeline } from "react-gsap";
+import { Controller, Scene } from "react-scrollmagic";
+import { Tween, Timeline } from "react-gsap";
 
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
@@ -220,7 +220,7 @@ export default function Services() {
       <section className="banner-image-section blur-overlay">
         <div className="div-wrap container">
           <figure className="right_container">
-            {/* <Controller>
+            <Controller>
               <Scene indicators={false} duration="200%" triggerHook="onEnter">
                 <Timeline
                   wrapper={
@@ -244,7 +244,7 @@ export default function Services() {
                   </Tween>
                 </Timeline>
               </Scene>
-            </Controller> */}
+            </Controller>
           </figure>
         </div>
       </section>
@@ -326,7 +326,7 @@ export default function Services() {
               <div className="grid-wrap">
                 <div className="column_">
                   <figure className="right_container resOne">
-                    {/* <Controller>
+                    <Controller>
                       <Scene
                         indicators={false}
                         duration="200%"
@@ -358,12 +358,12 @@ export default function Services() {
                           </Tween>
                         </Timeline>
                       </Scene>
-                    </Controller> */}
+                    </Controller>
                   </figure>
                 </div>
                 <div className="column_">
                   <figure className="resTwo">
-                    {/* <Controller>
+                    <Controller>
                       <Scene
                         indicators={false}
                         duration="200%"
@@ -395,7 +395,7 @@ export default function Services() {
                           </Tween>
                         </Timeline>
                       </Scene>
-                    </Controller> */}
+                    </Controller>
                   </figure>
                 </div>
               </div>
@@ -471,7 +471,7 @@ export default function Services() {
               <div className="grid-wrap">
                 <div className="column_">
                   <figure className="expDesignOne">
-                    {/* <Controller>
+                    <Controller>
                       <Scene
                         indicators={false}
                         duration="200%"
@@ -503,12 +503,12 @@ export default function Services() {
                           </Tween>
                         </Timeline>
                       </Scene>
-                    </Controller> */}
+                    </Controller>
                   </figure>
                 </div>
                 <div className="column_">
                   <figure className="expDesignTwo">
-                    {/* <Controller>
+                    <Controller>
                       <Scene
                         indicators={false}
                         duration="200%"
@@ -540,7 +540,7 @@ export default function Services() {
                           </Tween>
                         </Timeline>
                       </Scene>
-                    </Controller> */}
+                    </Controller>
                   </figure>
                 </div>
               </div>
@@ -608,7 +608,7 @@ export default function Services() {
               <div className="grid-wrap">
                 <div className="column_">
                   <figure className="right_container serviceDesignOne">
-                    {/* <Controller>
+                    <Controller>
                       <Scene
                         indicators={false}
                         duration="200%"
@@ -640,12 +640,12 @@ export default function Services() {
                           </Tween>
                         </Timeline>
                       </Scene>
-                    </Controller> */}
+                    </Controller>
                   </figure>
                 </div>
                 <div className="column_">
                   <figure className="serviceDesignTwo">
-                    {/* <Controller>
+                    <Controller>
                       <Scene
                         indicators={false}
                         duration="200%"
@@ -677,7 +677,7 @@ export default function Services() {
                           </Tween>
                         </Timeline>
                       </Scene>
-                    </Controller> */}
+                    </Controller>
                   </figure>
                 </div>
               </div>
@@ -741,7 +741,7 @@ export default function Services() {
               <div className="grid-wrap">
                 <div className="column_">
                   <figure className="expDesignOne">
-                    {/* <Controller>
+                    <Controller>
                       <Scene
                         indicators={false}
                         duration="200%"
@@ -773,12 +773,12 @@ export default function Services() {
                           </Tween>
                         </Timeline>
                       </Scene>
-                    </Controller> */}
+                    </Controller>
                   </figure>
                 </div>
                 <div className="column_">
                   <figure className="expDesignTwo">
-                    {/* <Controller>
+                    <Controller>
                       <Scene
                         indicators={false}
                         duration="200%"
@@ -810,7 +810,7 @@ export default function Services() {
                           </Tween>
                         </Timeline>
                       </Scene>
-                    </Controller> */}
+                    </Controller>
                   </figure>
                 </div>
               </div>
@@ -917,7 +917,7 @@ export default function Services() {
               <div className="grid-wrap">
                 <div className="column_">
                   <figure className="entUXOne">
-                    {/* <Controller>
+                    <Controller>
                       <Scene
                         indicators={false}
                         duration="200%"
@@ -949,12 +949,12 @@ export default function Services() {
                           </Tween>
                         </Timeline>
                       </Scene>
-                    </Controller> */}
+                    </Controller>
                   </figure>
                 </div>
                 <div className="column_">
                   <figure className="entUXTwo">
-                    {/* <Controller>
+                    <Controller>
                       <Scene
                         indicators={false}
                         duration="200%"
@@ -986,7 +986,7 @@ export default function Services() {
                           </Tween>
                         </Timeline>
                       </Scene>
-                    </Controller> */}
+                    </Controller>
                   </figure>
                 </div>
               </div>
@@ -1023,7 +1023,7 @@ export default function Services() {
               <div className="grid-wrap">
                 <div className="column_">
                   <figure className="left_container desEngg.">
-                    {/* <Controller>
+                    <Controller>
                       <Scene
                         indicators={false}
                         duration="200%"
@@ -1055,12 +1055,12 @@ export default function Services() {
                           </Tween>
                         </Timeline>
                       </Scene>
-                    </Controller> */}
+                    </Controller>
                   </figure>
                 </div>
                 <div className="column_">
                   <figure>
-                    {/* <Controller>
+                    <Controller>
                       <Scene
                         indicators={false}
                         duration="200%"
@@ -1092,7 +1092,7 @@ export default function Services() {
                           </Tween>
                         </Timeline>
                       </Scene>
-                    </Controller> */}
+                    </Controller>
                   </figure>
                 </div>
               </div>
@@ -1132,7 +1132,7 @@ export default function Services() {
               <div className="grid-wrap">
                 <div className="column_">
                   <figure className="serviceDesignOne">
-                    {/* <Controller>
+                    <Controller>
                       <Scene
                         indicators={false}
                         duration="200%"
@@ -1164,12 +1164,12 @@ export default function Services() {
                           </Tween>
                         </Timeline>
                       </Scene>
-                    </Controller> */}
+                    </Controller>
                   </figure>
                 </div>
                 <div className="column_">
                   <figure className="serviceDesignTwo">
-                    {/* <Controller>
+                    <Controller>
                       <Scene
                         indicators={false}
                         duration="200%"
@@ -1201,7 +1201,7 @@ export default function Services() {
                           </Tween>
                         </Timeline>
                       </Scene>
-                    </Controller> */}
+                    </Controller>
                   </figure>
                 </div>
               </div>

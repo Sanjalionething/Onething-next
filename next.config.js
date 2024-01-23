@@ -1,18 +1,24 @@
-/** @type {import('next').NextConfig} */
-
-const path = require("path");
+// /** @type {import('next').NextConfig} */
+// const path = require("path");
 
 const nextConfig = {
-  typescript: {
-    // !! WARN !!
-    // Dangerously allow production builds to successfully complete even if
-    // your project has type errors.
-    // !! WARN !!
-    ignoreBuildErrors: true,
+  // output: "export",
+  images: {
+    unoptimized: true,
   },
-  sassOptions: {
-    includePaths: [path.join(__dirname, "styles")],
-  },
+  // typescript: {
+  //   ignoreBuildErrors: true,
+  // },
+  // sassOptions: {
+  //   includePaths: [path.join(__dirname, "styles")],
+  // },
+  // async generateStaticPaths() {
+  //   // Use this function to specify the paths for static HTML export
+  //   return {
+  //     "/": { page: "/" },
+  //     // Add other paths as needed
+  //   };
+  // },
 };
 
 module.exports = nextConfig;
